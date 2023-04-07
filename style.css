@@ -1,0 +1,47 @@
+body{
+    background-color: greenyellow;
+}
+img{
+    width: 333px;
+    height: 300px;
+   
+}
+.main{
+    width: 1200px;
+    height: 620px;
+    background-color: yellow;
+    /* border: 2px solid black; */
+    margin: 50px auto;
+    
+   
+    
+    
+
+
+}
+.conteiner{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    
+}
+.foto1{
+    filter: blur(2px)
+}
+.foto2{
+    filter: brightness(200%);
+}
+.foto3{
+    filter: contrast(150%)
+}
+.foto4{
+    filter: grayscale(150%)
+}
+.foto5{
+    filter: hue-rotate(130deg);
+}
+.foto6{
+    filter: invert(130%);
+}
